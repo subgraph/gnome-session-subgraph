@@ -1,0 +1,4 @@
+*.swp
+debian/gnome-session-subgraph
+*.debhelper.log
+debian/files

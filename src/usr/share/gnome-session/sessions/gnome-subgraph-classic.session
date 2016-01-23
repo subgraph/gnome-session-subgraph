@@ -1,0 +1,3 @@
+[GNOME Session]
+Name=GNOME Subgraph Classic
+RequiredComponents=gnome-shell;gnome-settings-daemon;

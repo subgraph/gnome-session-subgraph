@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GNOME Subgraph
+Comment=This session logs you into GNOME Subgraph
+Exec=gnome-session-subgraph
+TryExec=gnome-session
+Icon=
+Type=Application
+DesktopNames=GNOME-Subgraph;GNOME

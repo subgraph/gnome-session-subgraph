@@ -1,0 +1,2 @@
+#! /bin/sh
+env GNOME_SHELL_SESSION_MODE=subgraph-classic gnome-session --session gnome-subgraph-classic "$@"

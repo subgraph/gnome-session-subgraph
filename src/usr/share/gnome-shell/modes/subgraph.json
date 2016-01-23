@@ -1,0 +1,8 @@
+{
+    "parentMode": "user",
+    "enabledExtensions": ["ozshell@subgraph.com", "firewall@subgraph.com"],
+    "panel": { "left": ["activities"],
+               "center": ["dateMenu"],
+               "right": ["a11y", "keyboard", "ozhsell", "aggregateMenu"]
+             }
+}

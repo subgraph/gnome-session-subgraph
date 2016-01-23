@@ -1,0 +1,15 @@
+Source: gnome-session-subgraph
+Section: devel
+Priority: extra
+Maintainer: Subgraph <info@subgraph.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/subgraphpkgs/gnome-session-subgraph
+Vcs-Git: https://github.com/subgraphpkgs/gnome-session-subgraph.git
+
+Package: gnome-session-subgraph
+Architecture: all
+Recommends: fw-daemon-gnome, gnome-shell-extension-ozshell
+Depends: gnome-shell (>=3.14), gnome-session, gnome-shell-extensions, ${misc:Depends}
+Description: Subgraph GNOME Session
+
