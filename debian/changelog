@@ -2,7 +2,7 @@ gnome-session-subgraph (0.0.2) unstable; urgency=medium
 
   * Fixed missing app menu in shell session
 
- -- Subgraph <info@subgraph.com>  Fri, 05 Fed 2016 18:30:00 +0000
+ -- Subgraph <info@subgraph.com>  Fri, 05 Feb 2016 18:30:00 +0000
 
 gnome-session-subgraph (0.0.1) unstable; urgency=medium
 
