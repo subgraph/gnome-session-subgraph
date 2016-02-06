@@ -13,7 +13,7 @@ case $1 in
 		mkdir -p /usr/share/wayland-sessions-disabled/
 		dpkg-divert --package gnome-session-subgraph --add --rename --divert /usr/share/wayland-sessions-disabled/gnome-wayland.desktop /usr/share/wayland-sessions/gnome-wayland.desktop
 	;;
-	abort-upgrade|abort-remove|abort-deconfigure)
+	abort-upgrade|abort-remove|abort-deconfigure|upgrade)
 	;;
 	*)
 		echo "postinst called with unknown argument \`$1'" >&2
