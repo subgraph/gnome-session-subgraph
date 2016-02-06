@@ -7,7 +7,7 @@ case $1 in
 		echo "gnome-session-subgraph $1"
 		update-alternatives --install /usr/bin/x-session-manager x-session-manager /usr/bin/gnome-session-subgraph 99
 	;;
-	abort-upgrade|abort-remove|abort-deconfigure)
+	abort-upgrade|abort-remove|abort-deconfigure|upgrade)
 	;;
 	*)
 		echo "postinst called with unknown argument \`$1'" >&2
