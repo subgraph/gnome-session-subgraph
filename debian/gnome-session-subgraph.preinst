@@ -3,17 +3,17 @@
 set -e
 
 case $1 in
-	configure|install)
+	install|upgrade)
 		#/usr/share/gnome-session/
 
-		mkdir -p /usr/share/xsessions-disabled
+		mkdir -p /usr/share/xsessions-disabled || true
 		dpkg-divert --package gnome-session-subgraph --add --rename --divert /usr/share/xsessions-disabled/gnome.desktop /usr/share/xsessions/gnome.desktop
 		dpkg-divert --package gnome-session-subgraph --add --rename --divert /usr/share/xsessions-disabled/gnome-classic.desktop /usr/share/xsessions/gnome-classic.desktop
 
-		mkdir -p /usr/share/wayland-sessions-disabled/
+		mkdir -p /usr/share/wayland-sessions-disabled || true
 		dpkg-divert --package gnome-session-subgraph --add --rename --divert /usr/share/wayland-sessions-disabled/gnome-wayland.desktop /usr/share/wayland-sessions/gnome-wayland.desktop
 	;;
-	abort-upgrade|abort-remove|abort-deconfigure|upgrade)
+	abort-upgrade)
 	;;
 	*)
 		echo "postinst called with unknown argument \`$1'" >&2
