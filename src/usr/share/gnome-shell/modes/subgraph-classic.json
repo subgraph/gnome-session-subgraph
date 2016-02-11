@@ -1,7 +1,7 @@
 {
     "parentMode": "user",
     "stylesheetName": "gnome-classic.css",
-    "enabledExtensions": ["ozshell@subgraph.com", "firewall@subgraph.com", "apps-menu@gnome-shell-extensions.gcampax.github.com","places-menu@gnome-shell-extensions.gcampax.github.com","alternate-tab@gnome-shell-extensions.gcampax.github.com","launch-new-instance@gnome-shell-extensions.gcampax.github.com","window-list@gnome-shell-extensions.gcampax.github.com"],
+    "enabledExtensions": ["ozshell@subgraph.com", "firewall@subgraph.com", "apps-menu@gnome-shell-extensions.gcampax.github.com","places-menu@gnome-shell-extensions.gcampax.github.com","alternate-tab@gnome-shell-extensions.gcampax.github.com","launch-new-instance@gnome-shell-extensions.gcampax.github.com","window-list@gnome-shell-extensions.gcampax.github.com", "torstatus@subgraph.com"],
     "panel": { "left": ["activities", "appMenu"],
                "center": [],
                "right": ["a11y", "keyboard", "dateMenu", "ozshell", "aggregateMenu"]

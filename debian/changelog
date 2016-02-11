@@ -1,3 +1,9 @@
+gnome-session-subgraph (0.0.4) unstable; urgency=medium
+
+  * Added Tor Status extension to modes
+
+ -- Subgraph <info@subgraph.com>  Thu, 11 Feb 2016 06:30:00 +0000
+
 gnome-session-subgraph (0.0.3) unstable; urgency=medium
 
   * Postinst script fix
