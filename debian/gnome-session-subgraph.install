@@ -1,8 +1,0 @@
-src/usr/share/xsessions/gnome-subgraph.desktop usr/share/xsessions
-src/usr/share/xsessions/gnome-subgraph-classic.desktop usr/share/xsessions
-src/usr/share/gnome-shell/modes/subgraph.json usr/share/gnome-shell/modes
-src/usr/share/gnome-shell/modes/subgraph-classic.json usr/share/gnome-shell/modes
-src/usr/share/gnome-session/sessions/gnome-subgraph.session usr/share/gnome-session/sessions
-src/usr/share/gnome-session/sessions/gnome-subgraph-classic.session usr/share/gnome-session/sessions
-src/usr/bin/gnome-session-subgraph usr/bin
-src/usr/bin/gnome-session-subgraph-classic usr/bin
