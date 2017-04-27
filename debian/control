@@ -12,4 +12,5 @@ Architecture: all
 Recommends: fw-daemon-gnome, gnome-shell-extension-ozshell, gnome-shell-extension-torstatus
 Depends: gnome-shell (>=3.20), gnome-session, gnome-shell-extensions, ${misc:Depends}
 Description: Subgraph GNOME Session
-
+ Subgraph GNOME Session
+ .
