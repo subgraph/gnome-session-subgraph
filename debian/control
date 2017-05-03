@@ -3,7 +3,7 @@ Section: devel
 Priority: extra
 Maintainer: Subgraph <info@subgraph.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://github.com/subgraphpkgs/gnome-session-subgraph
 Vcs-Git: https://github.com/subgraphpkgs/gnome-session-subgraph.git
 
@@ -12,5 +12,5 @@ Architecture: all
 Recommends: fw-daemon-gnome, gnome-shell-extension-ozshell, gnome-shell-extension-torstatus
 Depends: gnome-shell (>=3.20), gnome-session, gnome-shell-extensions, ${misc:Depends}
 Description: Subgraph GNOME Session
- Subgraph GNOME Session
+ Subgraph GNOME Session data
  .
