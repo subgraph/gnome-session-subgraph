@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GNOME Subgraph on Wayland
+Comment=This session logs you into GNOME Subgraph
+Exec=gnome-session-subgraph
+TryExec=gnome-session-subgraph
+Icon=
+Type=Application
+DesktopNames=GNOME
